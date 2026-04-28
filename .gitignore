@@ -361,3 +361,8 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# Allow .lib files from Dependencies folder
+!Dependencies/
+!Dependencies/**/*.lib
+!Dependencies/**/*.h
